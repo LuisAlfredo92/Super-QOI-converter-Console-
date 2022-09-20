@@ -1,0 +1,259 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Not console necessary" xml:space="preserve">
+    <value>No es necesario usar este programa con comandos de consola, puedes ejecutarlo haciendo doble clic en el archivo ejecutable y recibirás ayuda para usarlo como un programa común. Sin embargo, si quieres usarlo como comando de consola, aquí está la información necesaria:</value>
+  </data>
+  <data name="Specify console version" xml:space="preserve">
+    <value>(versión de consola)</value>
+  </data>
+  <data name="Welcome to" xml:space="preserve">
+    <value>Bienvenido a</value>
+  </data>
+  <data name="Commands title" xml:space="preserve">
+    <value>Comando: "Super QOI converter" [Rutas a archivos o carpetas] [Opciones]</value>
+    
+  </data>
+  <data name="Copy attributes and dates option" xml:space="preserve">
+    <value>-c
+	Copia los atributos y fechas de los archivos originales</value>
+  </data>
+  <data name="Delete source option" xml:space="preserve">
+    <value>-d
+	Elimina los archivos originales al terminar</value>
+  </data>
+  <data name="Ignore colors option" xml:space="preserve">
+    <value>-i
+	Ignora los colores de la consola</value>
+  </data>
+  <data name="Help option" xml:space="preserve">
+    <value>-h, --help
+	Muestra la ayuda</value>
+  </data>
+  <data name="You must add paths" xml:space="preserve">
+    <value>¡Debes agregar rutas de archivo para usar estas opciones!</value>
+  </data>
+  <data name="More info how to execute" xml:space="preserve">
+    <value>para obtener más información de cómo ejecutar este programa con parámetros de consola</value>
+  </data>
+  <data name="Type" xml:space="preserve">
+    <value>Escribe</value>
+  </data>
+  <data name="Invalid option or path" xml:space="preserve">
+    <value>Lo siento, eso es una opción inválida o una ruta inválida (debes usar rutas absolutas)</value>
+  </data>
+  <data name="Not copy attributes and dates option" xml:space="preserve">
+    <value>-nc
+	No copiará los atributos y fechas de los archivos originales y omitirá el mensaje de confirmación</value>
+  </data>
+  <data name="Not delete source option" xml:space="preserve">
+    <value>-nd
+	No eliminará los archivos originales y omitirá el mensaje de confirmación</value>
+  </data>
+  <data name="Here are some examples" xml:space="preserve">
+    <value>Aquí hay algunos ejemplos:</value>
+  </data>
+  <data name="Examples" xml:space="preserve">
+    <value>"Super QOI converter" C:\Ruta\absoluta\a\tu\imagen.png
+"Super QOI converter" F:\Varias\rutas.jpg C:\Al\mismo\tiempo.bmp
+"Super QOI converter" C:\Con\opciones.tif -c -d</value>
+  </data>
+  <data name="Contradictory options error" xml:space="preserve">
+    <value>El programa recibió opciones contradictorias (-c y -nc o -d y -nd al mismo tiempo). Elimina una de esas opciones e inténtalo de nuevo</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Sí</value>
+  </data>
+  <data name="Yes to all" xml:space="preserve">
+    <value>Sí a todo</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="No to all" xml:space="preserve">
+    <value>No a todo</value>
+  </data>
+  <data name="Exit" xml:space="preserve">
+    <value>Salir</value>
+  </data>
+  <data name="Reading invalid path message" xml:space="preserve">
+    <value>No es una ruta válida, omitiendo...</value>
+  </data>
+  <data name="You did not add any path" xml:space="preserve">
+    <value>Parece que no escribiste ninguna ruta, así que el programa las leerá ahora</value>
+  </data>
+  <data name="Write your paths now" xml:space="preserve">
+    <value>Escribe tus rutas absolutas ahora, una por línea. Escribe "Salir" para continuar:</value>
+    <comment>La palabra "Salir" debe ser igual que la cadena Salir</comment>
+  </data>
+  <data name="Add at least one path" xml:space="preserve">
+    <value>Añade por lo menos una ruta</value>
+  </data>
+  <data name="Already entered" xml:space="preserve">
+    <value>Esta ruta ya ha sido ingresada, omitiendo...</value>
+  </data>
+  <data name="Repo official link message" xml:space="preserve">
+    <value>Enlace oficial del repositorio</value>
+  </data>
+  <data name="Made by" xml:space="preserve">
+    <value>hecho por</value>
+  </data>
+  <data name="Use arrows or numbers and Enter" xml:space="preserve">
+    <value>Usa las flechas o los números para seleccionar una opción y pulsa Enter</value>
+  </data>
+  <data name="Do not overwrite option" xml:space="preserve">
+    <value>-no
+	No sobrescribirá archivos y omitirá la confirmación</value>
+  </data>
+  <data name="Overwrite option" xml:space="preserve">
+    <value>-o
+	Sobrescribe los archivos si ya existen</value>
+  </data>
+  <data name="File already exists" xml:space="preserve">
+    <value>El archivo ya existe. ¿Sobrescribir?</value>
+  </data>
+  <data name="Do you want to copy file info" xml:space="preserve">
+    <value>¿Quieres copiar los atributos y fechas (fecha de creación y modificación) del archivo original?</value>
+  </data>
+  <data name="This is going to delete permanently" xml:space="preserve">
+    <value>ADVERTENCIA: Esto eliminará el archivo PERMANENTEMENTE. No lo moverá a la papelera de reciclaje</value>
+  </data>
+  <data name="Do you want to delete original file" xml:space="preserve">
+    <value>¿Quieres eliminar el archivo original?</value>
+  </data>
+  <data name="Thank you" xml:space="preserve">
+    <value>¡Gracias por usar Super QOI converter!</value>
+  </data>
+  <data name="It looks like a directory" xml:space="preserve">
+    <value>Parece que {0} es una carpeta. ¿Quieres leer cada imagen de ella?</value>
+  </data>
+  <data name="Not image or folder" xml:space="preserve">
+    <value>Esto no es una carpeta, imagen o no está soportada, omitiendo...</value>
+  </data>
+  <data name="Under a MIT license" xml:space="preserve">
+    <value>con una licencia del MIT</value>
+  </data>
+  <data name="Version option" xml:space="preserve">
+    <value>-v, --version
+	Muestra la versión del programa</value>
+  </data>
+  <data name="With help of" xml:space="preserve">
+    <value>Con ayuda de:</value>
+  </data>
+</root>

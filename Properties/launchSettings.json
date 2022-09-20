@@ -1,0 +1,23 @@
+{
+  "profiles": {
+    "No paths": {
+      "commandName": "Project"
+    },
+    "One path copy delete": {
+      "commandName": "Project",
+      "commandLineArgs": "C:\\Users\\luisa\\Desktop\\Tests\\Dibujo.png -c -d"
+    },
+    "Directory copy not delete": {
+      "commandName": "Project",
+      "commandLineArgs": "C:\\Users\\luisa\\Desktop\\Tests -c -nd"
+    },
+    "Help": {
+      "commandName": "Project",
+      "commandLineArgs": "-h"
+    },
+    "Version": {
+      "commandName": "Project",
+      "commandLineArgs": "-v"
+    }
+  }
+}
