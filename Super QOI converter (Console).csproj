@@ -7,28 +7,33 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <StartupObject>Super_QOI_converter__Console_.Program</StartupObject>
-    <ApplicationIcon>appiconfg_256.ico</ApplicationIcon>
+    <ApplicationIcon>icon.ico</ApplicationIcon>
     <Authors>LuisAlfredo92</Authors>
     <Description>An useful program to convert any image into QOI format</Description>
     <PackageProjectUrl>https://github.com/LuisAlfredo92/Super-QOI-converter</PackageProjectUrl>
-    <PackageIcon>appiconfg_256.png</PackageIcon>
+    <PackageIcon>icon.png</PackageIcon>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <RepositoryUrl>https://github.com/LuisAlfredo92/Super-QOI-converter</RepositoryUrl>
     <PackageTags>qoi;image;converter;</PackageTags>
-    <PackageReleaseNotes>1.0.0
+    <PackageReleaseNotes>1.0.1
+-Updating icon
+
+1.0.0
 -Initial release</PackageReleaseNotes>
     <NeutralLanguage>en</NeutralLanguage>
-    <AssemblyVersion>1.0.0</AssemblyVersion>
-    <FileVersion>1.0.0</FileVersion>
+    <AssemblyVersion>1.0.1</AssemblyVersion>
+    <FileVersion>1.0.1</FileVersion>
     <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+    <Version>1.0.1</Version>
+    <Title>Super QOI converter (Console)</Title>
   </PropertyGroup>
 
   <ItemGroup>
-    <Content Include="appiconfg_256.ico" />
+    <Content Include="icon.ico" />
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="..\Core\Resources\appiconfg_256.png">
+    <None Include="..\Core\Resources\icon.png">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>
